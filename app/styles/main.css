@@ -1,0 +1,274 @@
+@charset "utf-8";
+.loading-container {
+	background: url(../images/bg.jpg) no-repeat;
+	background-size: cover;
+}
+.bar.bar-header .button+.title
+{
+	text-align: center;
+}
+.logo
+{
+	height: 45px;
+}
+.loading-container .loading {
+	background: none;
+}
+.bar.bar-balanced {
+	background: #9c27b0;
+	border: none;
+	box-shadow: none;
+}
+.bar-balanced .button.button-icon {
+	box-shadow: none;
+}
+.scroll-content {
+	background: url(../images/bg.jpg) no-repeat;
+	background-size: cover;
+}
+.button.button-light {
+	border-color: #FFF;
+	background-color: #fff;
+	padding: 0 20px;
+}
+.content-mid {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 13;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -moz-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	-moz-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-moz-align-items: center;
+	align-items: center;
+	-webkit-transition: .2s opacity linear;
+	transition: .2s opacity linear;
+	height: 100vh;
+}
+.sub-header {
+	background: #C363D4;
+	padding: 5px 10px;
+	display: none;
+}
+.list-bottom {
+    position: fixed;
+    width: 100%;
+    top: 100%;
+    bottom: auto;
+    background: #4a148c;
+    border: #4A148C solid 1px;
+}
+.list-bottom.show
+{
+	top: auto;
+    bottom: 0;
+}
+.list-bottom.list-static
+{
+	
+position: relative;
+}
+.list-bottom a.item {
+    float: left;
+    width: 50%;
+    background: #4a148c;
+    color: white;
+    border: none;
+    text-align: center;
+}
+.list-bottom a.item:first-child
+{
+	border-right: solid #2A0854;
+}
+.list-bottom .item-icon-left .icon
+{
+	text-align: center;
+}
+#gallery {
+    width: 100%;
+    float: left;
+}
+
+#gallery img {
+    max-width: 320px;
+    width: 100%;
+    max-height: 350px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.28) 0 0 3px;
+    border: #ffffff solid 5px;
+    margin: 5px 0 0px 5px;
+    display: block;
+    float: left;
+}
+#map {
+	height: 100vh;
+	position: absolute !important;
+	width: 100vw;
+}
+#listing {
+	position: relative;
+	width: 200px;
+	height: 470px;
+	overflow: auto;
+	left: 442px;
+	top: 0px;
+	cursor: pointer;
+	overflow-x: hidden;
+}
+#findhotels {
+	position: relative;
+	text-align: right;
+	width: 100px;
+	font-size: 14px;
+	padding: 4px;
+	z-index: 5;
+	background-color: #fff;
+}
+#locationField {
+	position: relative;
+	width: 50%;
+	/* height: 25px; */
+	top: 0px;
+	z-index: 5;
+	background-color: #fff;
+	/* float: left; */
+	display: inline-block;
+}
+#controls {
+	position: relative;
+	float: left;
+	width: 140px;
+	top: 0px;
+	z-index: 5;
+	background-color: #fff;
+	width: 50%;
+	display: inline-block;
+}
+#autocomplete {
+	width: 100%;
+	padding: 0 12px;
+	height: 30px;
+	background: #ce93d8;
+	color: white;
+}
+#autocomplete::-webkit-input-placeholder
+{
+  color:    #ffffff;
+}
+
+#autocomplete:-moz-placeholder
+{
+  color:    #ffffff;
+}
+
+#autocomplete::-moz-placeholder
+{
+  color:    #ffffff;
+}
+
+#autocomplete:-ms-input-placeholder
+{
+  color:    #ffffff;
+}
+#country {
+	width: 100%;
+	border: none;
+	height: 30px;
+	padding: 0 10px;
+	border-right: solid 1px #9C27B0;
+	background: #CE93D8;
+	color: white;
+}
+.placeIcon {
+	width: 20px;
+	height: 34px;
+	margin: 4px;
+}
+.hotelIcon {
+	width: 24px;
+	height: 24px;
+}
+#resultsTable {
+	border-collapse: collapse;
+	width: 240px;
+}
+#rating {
+	font-size: 13px;
+	font-family: Arial Unicode MS;
+}
+.iw_table_row {
+	height: 18px;
+}
+.iw_attribute_name {
+	font-weight: bold;
+	text-align: right;
+}
+.iw_table_icon {
+	text-align: right;
+}
+.reviews {
+    float: left;
+    padding: 5px;
+    margin: 5px 0 0 5px;
+    background: white;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.33) 0 1px 3px;
+    width: 98%;
+}
+.user-details {
+    float: left;
+    width: 100%;
+}
+.user-details img.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 2px 5px 5px 2px;
+    float: left;
+}
+.reviews p{
+	float: left;
+	margin: 5px;
+}
+.reviews p span
+{
+	display: block;
+	padding: 0 4px;
+	text-transform: uppercase;
+}
+.comments {
+    color: #8A8A8A;
+    font-style: italic;
+    padding: 5px;
+    clear: both;
+}
+.unavailable-photos {
+    border-radius: 3px;
+    background: white;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    color: #BFBFBF;
+}
+.pac-item
+{
+	padding: 10px 4px;
+	height: 50px;
+}
+.btm-gap {
+    margin-bottom: 60px;
+    clear: both;
+}
